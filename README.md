@@ -1,32 +1,27 @@
-# React + TypeScript + Vite
+CrimeNet is an AI-powered Telecom Call Detail Record (CDR) Analysis and Crime Network Detection System.
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Features
 
-Currently, two official plugins are available:
+-Upload and analyze CDR Excel/CSV files
+-Build communication graphs
+-Degree, Betweenness & Closeness Centrality
+-Identify important/bridge nodes
+-Analyze common cell-tower locations
+-Interactive network visualization
+-Fast analysis of large datasets
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Tech Stack
 
-## React Compiler
+- React + TypeScript
+- Cytoscape.js
+- SheetJS
+- PostgreSQL / Supabase
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+INTEGRATED LOGIN CREDENTIALS WITH FIREBASE CONSOLE
+DEPLOYED LINK 
+https://crimenet-6f021.web.app/
+LOGIN MAIL: abhiramanumandla786@gmail.com
+PASSWORD: 123456789
 
-## Expanding the Oxlint configuration
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
